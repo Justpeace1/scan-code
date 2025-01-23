@@ -1,0 +1,64 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    width: 20%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+img {
+    margin-top: -10px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 100%;
+    width: 100%;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+.container p {
+    font-size: 100%;
+    width: 100%;
+    font-weight: lighter;
+    margin: 0;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+    
+
+@media (max-width: 1440px) {
+    .container {
+        width: 19%;
+    }
+    
+}
+
+@media (max-width: 768px){
+    .container {
+        width: 35%;
+    }
+    
+}
+
+@media (max-width: 425px){
+    .container {
+        width: 90%;
+    }
+    
+}
